@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../styles/index.css" />
+		<link rel="stylesheet" href="../styles/button.css" />
+		<link rel="stylesheet" href="../styles/about.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Farro:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script
+			src="https://kit.fontawesome.com/016303b906.js"
+			crossorigin="anonymous"
+		></script>
+		<script defer src="../index.js"></script>
+		<title>Clearcut</title>
+	</head>
+	<body>
+		<section class="home">
+			<nav class="nav" id="nav">
+				<div class="name">
+					<a href="./index.html">
+						<span><i class="fas fa-blog"></i></span> Clearcut
+					</a>
+				</div>
+				<div class="buttons">
+					<a href="./form.html">
+						<button class="blob-btn">
+							Say Hello
+							<span class="blob-btn__inner">
+								<span class="blob-btn__blobs">
+									<span class="blob-btn__blob"></span>
+									<span class="blob-btn__blob"></span>
+									<span class="blob-btn__blob"></span>
+									<span class="blob-btn__blob"></span>
+								</span>
+							</span>
+						</button>
+					</a>
+				</div>
+
+				<div class="nav-icon">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</div>
+
+				<ul class="nav-links">
+					<li><a href="#" class="nav-link">About</a></li>
+					<li><a href="#" class="nav-link">Work</a></li>
+					<li><a href="#" class="nav-link">Blog</a></li>
+					<li><a href="#" class="nav-link">Contact</a></li>
+				</ul>
+			</nav>
+		</section>
+		<section class="section-center header">
+			<h1 class="headline">
+				Great Ideas <span>Deserve</span> <br />
+				Great Products
+			</h1>
+		</section>
+		<section class="about">
+			<div class="section-center">
+				<div class="img">
+					<img class="photo" src="../assests/design.jpeg" alt="" />
+				</div>
+				<div class="content">
+					<h1 class="heading">
+						Strategic UX <br />
+						Design & <br />
+						Brand Studio.
+					</h1>
+					<p class="text">
+						We help entrepreneurs and businesses <br />
+						achieve ambitious dreams by building design <br />
+						centric products and brands.
+					</p>
+				</div>
+				<div class="featured">
+					<div class="divider">Featured Work</div>
+					<div class="wrapper">
+						<div class="car">
+							<img class="carimg" src="../assests/car.jpeg" alt="" />
+							<p class="carcontent">
+								Building India's first ever rental car marketplace.
+							</p>
+						</div>
+						<div class="news">
+							<video width="650" height="400" autoplay>
+								<source src="../assests/Pexels Videos 2432288.mp4" type="video/mp4" />
+								Your browser does not support the video tag.
+							</video>
+							<p>A decade old news channel's makeover</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg">
+			<defs>
+				<filter id="goo">
+					<feGaussianBlur
+						in="SourceGraphic"
+						result="blur"
+						stdDeviation="10"
+					></feGaussianBlur>
+					<feColorMatrix
+						in="blur"
+						mode="matrix"
+						values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7"
+						result="goo"
+					></feColorMatrix>
+					<feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+				</filter>
+			</defs>
+		</svg>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	</body>
+</html>

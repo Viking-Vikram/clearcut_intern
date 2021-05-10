@@ -1,0 +1,88 @@
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+}
+.home {
+	position: relative;
+}
+.about {
+	background-color: #8fd6e1;
+	border-top-left-radius: 3rem;
+	border-top-right-radius: 3rem;
+	overflow: hidden;
+}
+/* .img {
+	position: relative;
+	top: 4rem;
+	float: left;
+} */
+.content {
+	height: 100vh;
+	position: relative;
+	font-size: 3rem;
+	left: 8rem;
+	top: 5rem;
+}
+.heading {
+	color: #1597bb;
+	font-family: "Farro", sans-serif;
+}
+.text {
+	margin-top: 2rem;
+	color: #536162;
+	font-size: 1.5rem;
+}
+
+.divider {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #1597bb;
+	font-size: 2rem;
+}
+
+.divider::after {
+	content: "";
+	flex: 1;
+	border-bottom: 1px solid #1597bb;
+}
+
+.divider::after {
+	margin-left: 1em;
+}
+.carimg {
+	margin-top: 2rem;
+	box-shadow: 7px 7px 5px #1597bb;
+}
+.carcontent {
+	color: #536162;
+	font-size: 1.5rem;
+	width: 25rem;
+	margin-top: 2rem;
+}
+.wrapper {
+	display: flex;
+}
+.news {
+	position: relative;
+	top: 8rem;
+	left: 2rem;
+}
+
+.news p {
+	color: #536162;
+	font-size: 1.5rem;
+	margin-top: 1rem;
+}
+.svg {
+	display: none;
+}

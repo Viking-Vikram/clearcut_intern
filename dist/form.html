@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../styles/index.css" />
+		<link rel="stylesheet" href="../styles/button.css" />
+		<link rel="stylesheet" href="../styles/form.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Farro:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script
+			src="https://kit.fontawesome.com/016303b906.js"
+			crossorigin="anonymous"
+		></script>
+		<script defer src="../index.js"></script>
+		<title>Clearcut</title>
+	</head>
+	<body>
+		<section class="home">
+			<nav class="nav" id="nav">
+				<div class="name">
+					<a href="./index.html">
+						<span><i class="fas fa-blog"></i></span> Clearcut
+					</a>
+				</div>
+				<div class="buttons">
+					<a href="./form.html">
+						<button class="blob-btn">
+							Say Hello
+							<span class="blob-btn__inner">
+								<span class="blob-btn__blobs">
+									<span class="blob-btn__blob"></span>
+									<span class="blob-btn__blob"></span>
+									<span class="blob-btn__blob"></span>
+									<span class="blob-btn__blob"></span>
+								</span>
+							</span>
+						</button>
+					</a>
+				</div>
+
+				<div class="nav-icon">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</div>
+
+				<ul class="nav-links">
+					<li><a href="#" class="nav-link">About</a></li>
+					<li><a href="#" class="nav-link">Work</a></li>
+					<li><a href="#" class="nav-link">Blog</a></li>
+					<li><a href="#" class="nav-link">Contact</a></li>
+				</ul>
+			</nav>
+		</section>
+
+		<section class="section-center">
+			<div class="greeting">
+				<h1 class="fheadline">Hey, Hi there!</h1>
+				<p class="fcontent">
+					One little form from you to us, could be one giant leap for mankind! <br />
+					You never know.
+				</p>
+			</div>
+			<!-- <article class="contact-form">
+				<h3>contact us</h3>
+				<form action="https://formspree.io/meqpqglo" method="POST">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Name" name="name" />
+						<input
+							type="email"
+							class="form-control"
+							placeholder="Email"
+							name="email"
+						/>
+						<textarea
+							name="message"
+							rows="5"
+							class="form-control"
+							placeholder="Message"
+						></textarea>
+					</div>
+					<button type="submit" class="submit-btn btn">submit here</button>
+				</form>
+			</article> -->
+			<form>
+				<div>
+					<label class="label" for="name">Name</label>
+					<input type="text" class="form-control" placeholder="Name" name="name" />
+					<label class="label" for="Email">Email</label>
+					<input
+						type="email"
+						class="form-control"
+						placeholder="Email"
+						name="email"
+					/>
+					<label class="label" for="Phone">Phone</label>
+					<input
+						type="phone"
+						class="form-control"
+						placeholder="Phone number"
+						name="phone"
+					/>
+					<label class="label" for="Phone"
+						>Can you tell us something about your project?</label
+					>
+					<textarea
+						name="message"
+						rows="5"
+						class="form-control"
+						placeholder="Message"
+					></textarea>
+					<div class="fbuttons">
+						<a href="./form.html">
+							<button class="blob-btn">
+								Submit
+								<span class="blob-btn__inner">
+									<span class="blob-btn__blobs">
+										<span class="blob-btn__blob"></span>
+										<span class="blob-btn__blob"></span>
+										<span class="blob-btn__blob"></span>
+										<span class="blob-btn__blob"></span>
+									</span>
+								</span>
+							</button>
+						</a>
+					</div>
+				</div>
+			</form>
+		</section>
+
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg">
+			<defs>
+				<filter id="goo">
+					<feGaussianBlur
+						in="SourceGraphic"
+						result="blur"
+						stdDeviation="10"
+					></feGaussianBlur>
+					<feColorMatrix
+						in="blur"
+						mode="matrix"
+						values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7"
+						result="goo"
+					></feColorMatrix>
+					<feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+				</filter>
+			</defs>
+		</svg>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	</body>
+</html>
